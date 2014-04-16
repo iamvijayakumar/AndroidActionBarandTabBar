@@ -19,62 +19,62 @@
 
 <resources>
 
-    <style name="Theme.Example" parent="@android:style/Theme.Holo.Light">
-        <item name="android:actionBarItemBackground">@drawable/selectable_background_example</item>
-        <item name="android:popupMenuStyle">@style/PopupMenu.Example</item>
-        <item name="android:dropDownListViewStyle">@style/DropDownListView.Example</item>
-        <item name="android:actionBarTabStyle">@style/ActionBarTabStyle.Example</item>
-        <item name="android:actionDropDownStyle">@style/DropDownNav.Example</item>
-        <item name="android:actionBarStyle">@style/ActionBar.Solid.Example</item>
-        <item name="android:actionModeBackground">@drawable/cab_background_top_example</item>
-        <item name="android:actionModeSplitBackground">@drawable/cab_background_bottom_example</item>
-        <item name="android:actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Example</item>
+    <style name="Theme.Mysamplefilemanager" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarItemBackground">@drawable/selectable_background_mysamplefilemanager</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu.Mysamplefilemanager</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Mysamplefilemanager</item>
+        <item name="android:actionBarTabStyle">@style/ActionBarTabStyle.Mysamplefilemanager</item>
+        <item name="android:actionDropDownStyle">@style/DropDownNav.Mysamplefilemanager</item>
+        <item name="android:actionBarStyle">@style/ActionBar.Solid.Mysamplefilemanager</item>
+        <item name="android:actionModeBackground">@drawable/cab_background_top_mysamplefilemanager</item>
+        <item name="android:actionModeSplitBackground">@drawable/cab_background_bottom_mysamplefilemanager</item>
+        <item name="android:actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Mysamplefilemanager</item>
         
         
     </style>
 
-    <style name="ActionBar.Solid.Example" parent="@android:style/Widget.Holo.Light.ActionBar.Solid">
-        <item name="android:background">@drawable/ab_solid_example</item>
-        <item name="android:backgroundStacked">@drawable/ab_stacked_solid_example</item>
-        <item name="android:backgroundSplit">@drawable/ab_bottom_solid_example</item>
-        <item name="android:progressBarStyle">@style/ProgressBar.Example</item>
+    <style name="ActionBar.Solid.Mysamplefilemanager" parent="@android:style/Widget.Holo.Light.ActionBar.Solid">
+        <item name="android:background">@drawable/ab_background_textured_mysamplefilemanager</item>
+        <item name="android:backgroundStacked">@drawable/ab_stacked_solid_mysamplefilemanager</item>
+        <item name="android:backgroundSplit">@drawable/ab_background_textured_mysamplefilemanager</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Mysamplefilemanager</item>
     </style>
 
-    <style name="ActionBar.Transparent.Example" parent="@android:style/Widget.Holo.Light.ActionBar">
-        <item name="android:background">@drawable/ab_transparent_example</item>
-        <item name="android:progressBarStyle">@style/ProgressBar.Example</item>
+    <style name="ActionBar.Transparent.Mysamplefilemanager" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@drawable/ab_transparent_mysamplefilemanager</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Mysamplefilemanager</item>
     </style>
 
-    <style name="PopupMenu.Example" parent="@android:style/Widget.Holo.Light.ListPopupWindow">
-        <item name="android:popupBackground">@drawable/menu_dropdown_panel_example</item>	
+    <style name="PopupMenu.Mysamplefilemanager" parent="@android:style/Widget.Holo.Light.ListPopupWindow">
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_mysamplefilemanager</item>	
     </style>
 
-    <style name="DropDownListView.Example" parent="@android:style/Widget.Holo.Light.ListView.DropDown">
-        <item name="android:listSelector">@drawable/selectable_background_example</item>
+    <style name="DropDownListView.Mysamplefilemanager" parent="@android:style/Widget.Holo.Light.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background_mysamplefilemanager</item>
     </style>
 
-    <style name="ActionBarTabStyle.Example" parent="@android:style/Widget.Holo.Light.ActionBar.TabView">
-        <item name="android:background">@drawable/tab_indicator_ab_example</item>
+    <style name="ActionBarTabStyle.Mysamplefilemanager" parent="@android:style/Widget.Holo.Light.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_indicator_ab_mysamplefilemanager</item>
     </style>
 
-    <style name="DropDownNav.Example" parent="@android:style/Widget.Holo.Light.Spinner">
-        <item name="android:background">@drawable/spinner_background_ab_example</item>
-        <item name="android:popupBackground">@drawable/menu_dropdown_panel_example</item>
-        <item name="android:dropDownSelector">@drawable/selectable_background_example</item>
+    <style name="DropDownNav.Mysamplefilemanager" parent="@android:style/Widget.Holo.Light.Spinner">
+        <item name="android:background">@drawable/spinner_background_ab_mysamplefilemanager</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_mysamplefilemanager</item>
+        <item name="android:dropDownSelector">@drawable/selectable_background_mysamplefilemanager</item>
     </style>
     
-    <style name="ProgressBar.Example" parent="@android:style/Widget.Holo.Light.ProgressBar.Horizontal">
-        <item name="android:progressDrawable">@drawable/progress_horizontal_example</item>
+    <style name="ProgressBar.Mysamplefilemanager" parent="@android:style/Widget.Holo.Light.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_mysamplefilemanager</item>
     </style>
     
-    <style name="ActionButton.CloseMode.Example" parent="@android:style/Widget.Holo.Light.ActionButton.CloseMode">
-        <item name="android:background">@drawable/btn_cab_done_example</item>
+    <style name="ActionButton.CloseMode.Mysamplefilemanager" parent="@android:style/Widget.Holo.Light.ActionButton.CloseMode">
+        <item name="android:background">@drawable/btn_cab_done_mysamplefilemanager</item>
     </style>
 
     <!-- this style is only referenced in a Light.DarkActionBar based theme -->
-    <style name="Theme.Example.Widget" parent="@android:style/Theme.Holo">
-        <item name="android:popupMenuStyle">@style/PopupMenu.Example</item>
-        <item name="android:dropDownListViewStyle">@style/DropDownListView.Example</item>
+    <style name="Theme.Mysamplefilemanager.Widget" parent="@android:style/Theme.Holo">
+        <item name="android:popupMenuStyle">@style/PopupMenu.Mysamplefilemanager</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Mysamplefilemanager</item>
     </style>
 
 </resources>

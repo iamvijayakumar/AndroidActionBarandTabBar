@@ -115,19 +115,12 @@ public class MainActivity extends FragmentActivity implements TabListener {
 		public Fragment getItem(int tab_position) {
 			// TODO Auto-generated method stub
 
-			switch (tab_position) {
-			case 0:
+			if (tab_position == 0) {
+
 				return new NewsFragment();
-			case 1:
+			} else {
 				return new TopNewsFragment();
 			}
-			/*
-			 * if (tab_position == 0) {
-			 * 
-			 * return new NewsFragment(); } else { return new TopNewsFragment();
-			 * }
-			 */
-			return null;
 
 		}
 
